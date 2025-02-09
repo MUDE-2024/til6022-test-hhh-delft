@@ -4,4 +4,4 @@ import testbook
 def test_func(tb):
     func = tb.ref("func")
 
-    assert func(1, 2) == 3
+    assert func(2) == 3
